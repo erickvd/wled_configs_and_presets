@@ -1,0 +1,29 @@
+Allumer ou éteindre les WLED
+
+{"on":"t","v":true}
+
+Charger un preset particulier
+
+{"ps": 1}
+{"ps": 2}
+
+Régler la luminosité
+
+{"bri": 130}
+
+Inverser l'effet
+
+{"rev": true}
+
+
+Détecteur bas : allumer et retour d'état
+{"on":true,"v":true,"seg":{"id":0,"ps":2,"bri":125,"rev":false}}
+
+Détecteur haut : allumer et retour d'état
+{"on":true,"v":true,"seg":{"id":0,"ps":2,"bri":125,"rev":true}}
+{"seg":{"id":0,"ps":2,"bri":125,"rev":true}}
+
+Éteindre et retour d'état
+{"on":false,"v":true}
+
+
